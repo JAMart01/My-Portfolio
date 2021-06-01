@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Libre Baskerville', Arial, sans-serif;
+}
+
+section {
+    padding: 90px;
+}
+
+/* HEADER STYLE STARTS */
+
+header {
+    padding: 20px 30px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    color: rgb(199, 49, 79);
+    font-size: 35px;
+    font-weight: normal;
+
+}
+
+header a {
+    color: rgb(255, 245, 245);
+    text-decoration: none;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 5px 10px;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: rgb(255, 245, 245);
+    color: rgb(199, 49, 79);
+    border-radius: 5px;
+}
+
+/* HEADER STYLE ENDS */
+
+.hero {
+    background-image: url(../images/black-sand.jpg);
+    background-size:cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subtitle {
+    font-size: 25px;
+    color: white;
+    width: 100%;
+}
