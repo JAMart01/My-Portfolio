@@ -157,9 +157,9 @@ header nav ul li a:hover {
     margin: 10px 30px;
 }
 
-.calculator {
+.just-ask {
     flex: 1 15%;
-    background-image: url(../images/coming-soon.jpg);
+    background-image: url(../images/just-ask-screenshot.png);
     background-size: 100%;
     padding: 200px;
     margin: 15px 5px 5px 30px;
